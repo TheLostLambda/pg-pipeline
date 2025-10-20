@@ -12,6 +12,7 @@ use std::{borrow::Cow, collections::BTreeMap};
 
 // External Crate Imports
 use derive_more::Constructor;
+use thiserror::Error;
 
 // Local Crate Imports
 use crate::{
@@ -48,5 +49,14 @@ pub struct NamedIon<'n> {
     mz: Mz,
 }
 
-// TODO: Use a better error type from `thiserror`
-type Result<T> = std::result::Result<T, &'static str>;
+type Result<T> = std::result::Result<T, Error>;
+
+#[derive(Error, Debug)]
+pub enum Error {
+    #[error("MS2 spectrum was missing precursor ion information")]
+    MissingPrecursor,
+    #[error("failed to find centroided peak data")]
+    UncentroidedData,
+    #[error("failed to decompress gzipped bytes")]
+    GzipError,
+}

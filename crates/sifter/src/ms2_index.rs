@@ -11,7 +11,7 @@ use mzdata::{
 
 // Local Crate Imports
 use crate::{
-    FoundFragment, FoundPrecursor, Ms2Index, NamedIon, Result,
+    Error, FoundFragment, FoundPrecursor, Ms2Index, NamedIon, Result,
     ppm_window::PpmWindow,
     scan_kv::{ScanKey, ScanValue},
 };
@@ -37,10 +37,7 @@ impl Ms2Index {
             .into_iter()
             .filter(|spectrum| spectrum.ms_level() == 2)
             .map(|mut spectrum| {
-                let precursor = spectrum
-                    .precursor()
-                    .ok_or("MS2 spectrum was missing precursor ion information")?
-                    .mz();
+                let precursor = spectrum.precursor().ok_or(Error::MissingPrecursor)?.mz();
                 // NOTE: This is assuming that the mzML file we've been given represents a full MS run — if this file
                 // is a slice of a larger run, then the scan `.id()` will differ from this!
                 let scan_number = spectrum.index() + 1;
@@ -48,7 +45,7 @@ impl Ms2Index {
 
                 let peaks = spectrum
                     .try_build_centroids()
-                    .map_err(|_| "failed to find centroided peak data")?
+                    .map_err(|_| Error::UncentroidedData)?
                     .into();
 
                 Ok((
@@ -143,7 +140,7 @@ impl Ms2Index {
             let mut decoded_bytes = Vec::with_capacity(bytes.len());
             gz_decoder
                 .read_to_end(&mut decoded_bytes)
-                .map_err(|_| "failed to decompress bytes")?;
+                .map_err(|_| Error::GzipError)?;
             Ok(Cow::Owned(decoded_bytes))
         } else {
             Ok(Cow::Borrowed(bytes))
