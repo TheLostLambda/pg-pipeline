@@ -4,23 +4,14 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+anyhow = "1.0.100"
+clap = { version = "4.5.49", features = ["derive"] }
+csv = "1.4.0"
 derive_more = { version = "2.0.1", features = ["full"] }
 flate2 = { version = "1.1.4", features = ["zlib-rs"], default-features = false }
 mzdata = { git = "https://github.com/mobiusklein/mzdata.git", branch="feature/avoid-double-buffer", features = ["mzml", "zlib-ng-compat"], default-features = false }
 ordered-float = { version = "5.1.0", default-features = false }
-# FIXME: https://github.com/pola-rs/polars/issues/24208
-planus = "=1.1.1"
-
-# FIXME: Need to file an issue complaining that they broke WASM support (again...)
-[dependencies.polars]
-version = "0.46.0"
-default-features = false
-features = [
-  "csv",
-  "lazy",
-  # FIXME: Remove this before release! Only used for debugging during development!
-  "fmt_no_tty",
-]
+thiserror = "2.0.17"
 
 [lints]
 workspace = true
