@@ -4,8 +4,7 @@ use std::{borrow::Cow, io::Read};
 // External Crate Imports
 use flate2::read::GzDecoder;
 use mzdata::{
-    MzMLReader,
-    io::DetailLevel,
+    io::{DetailLevel, mzml::BufferedMzMLReaderType},
     prelude::{IonProperties, SpectrumLike},
     spectrum::MultiLayerSpectrum,
 };
@@ -23,11 +22,8 @@ impl Ms2Index {
     pub fn from_bytes(bytes: impl AsRef<[u8]>) -> Result<Self> {
         let bytes = Self::decode_bytes_if_compressed(bytes.as_ref())?;
 
-        // FIXME: I think `mzdata` should have a way to construct an `MzMLReader` *without* a buffer! For now, the
-        // buffer capacity is `10,000` bytes, completely arbitrarily
-        let spectra = MzMLReader::with_buffer_capacity_and_detail_level(
+        let spectra = BufferedMzMLReaderType::new_buffered_with_detail_level(
             bytes.as_ref(),
-            10_000,
             DetailLevel::Lazy,
         );
 
