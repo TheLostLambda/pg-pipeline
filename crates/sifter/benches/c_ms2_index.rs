@@ -48,7 +48,9 @@ fn find_fragments(ms2_index: &Ms2Index) {
     ]
     .map(|named_ion| (named_ion, &monomer_fragments));
 
-    let _found_fragments: Vec<_> = ms2_index.find_fragments(&monomer_fragments, 10).collect();
+    ms2_index
+        .find_fragments(&monomer_fragments, 10)
+        .for_each(drop);
 }
 
 fn build_ms2_index(c: &mut Criterion) {

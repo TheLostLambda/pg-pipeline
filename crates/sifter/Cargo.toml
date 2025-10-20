@@ -29,8 +29,13 @@ workspace = true
 [dev-dependencies]
 assert_float_eq = "1.2.0"
 criterion = "0.7.0"
+gungraun = "0.17.0"
 insta = "1.43.2"
 
 [[bench]]
-name = "ms2_index"
+name = "c_ms2_index"
+harness = false
+
+[[bench]]
+name = "g_ms2_index"
 harness = false

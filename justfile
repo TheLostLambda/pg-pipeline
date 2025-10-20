@@ -10,6 +10,9 @@ review:
 bench:
   cargo bench --workspace
 
+profile FILE FUNCTION:
+   samply record cargo bench --workspace --bench {{FILE}} {{FUNCTION}} -- --profile-time 5
+
 # FIXME: Get rid of these -A flags
 lint:
   cargo fmt --check

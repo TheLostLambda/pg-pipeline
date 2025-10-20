@@ -33,6 +33,9 @@ smithereens = { path = "crates/smithereens/" }
 rustyline = "16.0.0"
 rust_decimal = "1.37.2"
 
+[profile.bench]
+debug = true
+
 # FIXME: This is just a list of nice libraries, but should eventually be deleted!
 # [dependencies]
 # petgraph = "0.6.4"
