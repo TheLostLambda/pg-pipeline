@@ -48,5 +48,5 @@ pub struct NamedIon<'n> {
     mz: Mz,
 }
 
-// FIXME: Use a better error type from `thiserror`
+// TODO: Use a better error type from `thiserror`
 type Result<T> = std::result::Result<T, &'static str>;
