@@ -10,7 +10,8 @@ use crate::ppm_window::PpmWindow;
 
 // Public API ==========================================================================================================
 
-// PERF: Try out `f32` and see if that saves enough space to speed things up!
+// NOTE: I've tried with `f32` instead of `f64`, but performance actually got slightly worse. It's not shrinking things
+// enough to meaningfully increase cache efficiency (but it did, predictably, save memory on the heap!)
 pub type Mz = OrderedFloat<f64>;
 pub type Minutes = OrderedFloat<f64>;
 

@@ -13,19 +13,12 @@ use crate::{
 
 // Public API ==========================================================================================================
 
-// PERF: After getting some benchmarks in place, try cutting the size of this struct in half (f64 → f32) — the 64 bits
-// definitely isn't needed precision-wise, so if it helps performance, it's probably worth the small amount of type
-// casting! Don't forget about padding! All fields must shrink to the same size.
 #[derive(Copy, Clone, Eq, PartialEq, Ord, PartialOrd, Hash, Debug)]
 pub struct ScanKey {
     pub precursor: Mz,
     pub scan_number: usize,
 }
 
-// PERF: Shrinking this `start_time` to a `f32` won't shrink the size of this struct. If I want to avoid any packing
-// anywhere, then I should move `start_time` back to `ScanInfo`, then shrink all of those fields to 4 bytes. But I'll
-// need to benchmark if *increasing* the key size, whilst *decreasing* the overall K + V size actually helps
-// performance. It's possible that smaller keys are faster anyways!
 #[derive(Clone, Eq, PartialEq, Ord, PartialOrd, Hash, Debug)]
 pub struct ScanValue {
     pub start_time: Minutes,
