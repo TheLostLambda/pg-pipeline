@@ -10,7 +10,6 @@ mzdata = { version = "0.60.3", features = ["mzml", "zlib-ng-compat"], default-fe
 ordered-float = { version = "5.1.0", default-features = false }
 # FIXME: https://github.com/pola-rs/polars/issues/24208
 planus = "=1.1.1"
-rayon = "1.11.0"
 
 # FIXME: Need to file an issue complaining that they broke WASM support (again...)
 [dependencies.polars]

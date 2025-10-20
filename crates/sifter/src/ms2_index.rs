@@ -9,7 +9,6 @@ use mzdata::{
     prelude::{IonProperties, SpectrumLike},
     spectrum::MultiLayerSpectrum,
 };
-use rayon::prelude::*;
 
 // Local Crate Imports
 use crate::{
@@ -26,23 +25,20 @@ impl Ms2Index {
 
         // FIXME: I think `mzdata` should have a way to construct an `MzMLReader` *without* a buffer! For now, the
         // buffer capacity is `10,000` bytes, completely arbitrarily
-        let mzml = MzMLReader::with_buffer_capacity_and_detail_level(
+        let spectra = MzMLReader::with_buffer_capacity_and_detail_level(
             bytes.as_ref(),
             10_000,
             DetailLevel::Lazy,
         );
 
-        // TODO: Benchmark if this `.collect()` is faster or slower than `.par_bridge()`
-        let spectra: Vec<_> = mzml.collect();
-
         Self::from_spectra(spectra)
     }
 
-    pub fn from_spectra(
-        spectra: impl IntoParallelIterator<Item = MultiLayerSpectrum>,
-    ) -> Result<Self> {
+    // PERF: This could take an `IntoParallelIterator` and use `rayon` to speed things up somewhat if you're dealing
+    // with a large number of spectra. The overhead, however, isn't worth it for smaller datasets...
+    pub fn from_spectra(spectra: impl IntoIterator<Item = MultiLayerSpectrum>) -> Result<Self> {
         spectra
-            .into_par_iter()
+            .into_iter()
             .filter(|spectrum| spectrum.ms_level() == 2)
             .map(|mut spectrum| {
                 let precursor = spectrum
