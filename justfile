@@ -2,6 +2,7 @@ watch:
   watchexec -e rs,toml,kdl just check-wasm test lint 
 
 test:
+  cargo check --workspace --all-targets
   cargo nextest run --workspace
 
 review:

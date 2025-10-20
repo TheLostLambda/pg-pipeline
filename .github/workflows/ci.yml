@@ -29,7 +29,6 @@ jobs:
           toolchain: ${{ matrix.toolchain }}
 
       - run: just test
-      - run: just bench
 
   check_wasm_build:
     name: Check WASM Build
