@@ -12,14 +12,14 @@ use mzdata::{
 // Local Crate Imports
 use crate::{
     Error, FoundFragment, FoundPrecursor, NamedIon, Result,
-    ms2::Ms2Index,
+    ms2::Index,
     ppm_window::PpmWindow,
     scan_kv::{ScanKey, ScanValue},
 };
 
 // Public API ==========================================================================================================
 
-impl Ms2Index {
+impl Index {
     pub fn from_bytes(bytes: impl AsRef<[u8]>) -> Result<Self> {
         let bytes = Self::decode_bytes_if_compressed(bytes.as_ref())?;
 
@@ -55,7 +55,7 @@ impl Ms2Index {
                 ))
             })
             .collect::<Result<_>>()
-            .map(Ms2Index)
+            .map(Index)
     }
 
     // PERF: Add a `par_find_precursors()` that takes and returns a parallel iterator (if benchmarks justify it)
@@ -131,7 +131,7 @@ impl Ms2Index {
 
 // Private Methods =====================================================================================================
 
-impl Ms2Index {
+impl Index {
     fn decode_bytes_if_compressed(bytes: &[u8]) -> Result<Cow<'_, [u8]>> {
         let mut gz_decoder = GzDecoder::new(bytes);
 
@@ -175,18 +175,18 @@ mod tests {
         let mzml =
             MzMLReader::with_buffer_capacity_and_detail_level(MZML, 10_000, DetailLevel::Lazy);
         let spectra: Vec<_> = mzml.collect();
-        let ms2_index = Ms2Index::from_spectra(spectra).unwrap();
+        let ms2_index = Index::from_spectra(spectra).unwrap();
         assert_debug_snapshot!(ms2_index);
 
-        let from_bytes = Ms2Index::from_bytes(MZML).unwrap();
+        let from_bytes = Index::from_bytes(MZML).unwrap();
         assert_eq!(from_bytes, ms2_index);
-        let from_gzipped_bytes = Ms2Index::from_bytes(MZML_GZ).unwrap();
+        let from_gzipped_bytes = Index::from_bytes(MZML_GZ).unwrap();
         assert_eq!(from_gzipped_bytes, ms2_index);
     }
 
     #[test]
     fn find_precursors() {
-        let ms2_index = Ms2Index::from_bytes(MZML).unwrap();
+        let ms2_index = Index::from_bytes(MZML).unwrap();
         let monomer_ions = [
             NamedIon::new("g(r)m-AEJA(+p)", 942.414_979),
             NamedIon::new("g(r)m-AEJA(+2p)", 471.711_127_5),
@@ -198,7 +198,7 @@ mod tests {
 
     #[test]
     fn find_fragments() {
-        let ms2_index = Ms2Index::from_bytes(MZML).unwrap();
+        let ms2_index = Index::from_bytes(MZML).unwrap();
         let monomer_fragments = [
             ("gm(r)-AEJA", 942.414_979),
             ("gm(r)-AEJ", 853.367_300),

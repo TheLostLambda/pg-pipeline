@@ -1,8 +1,8 @@
 ---
-source: crates/sifter/src/ms2/ms2_index.rs
+source: crates/sifter/src/ms2/index.rs
 expression: ms2_index
 ---
-Ms2Index(
+Index(
     {
         ScanKey {
             precursor: 157.083389282227,

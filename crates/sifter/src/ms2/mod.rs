@@ -1,6 +1,6 @@
 mod found_fragment;
 mod found_precursor;
-mod ms2_index;
+mod index;
 mod peaks;
 
 // Standard Library Imports
@@ -22,7 +22,7 @@ use crate::{
 pub use peaks::Peaks;
 
 #[derive(Clone, Eq, PartialEq, Ord, PartialOrd, Hash, Debug)]
-pub struct Ms2Index(BTreeMap<ScanKey, ScanValue>);
+pub struct Index(BTreeMap<ScanKey, ScanValue>);
 
 #[derive(Copy, Clone, Eq, PartialEq, Ord, PartialOrd, Hash, Debug, Constructor)]
 pub struct FoundPrecursor<'p, 'n> {

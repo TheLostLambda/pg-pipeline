@@ -15,7 +15,7 @@ use crate::ordered_floats::Mz;
 
 // Public API ==========================================================================================================
 
-pub use ms2::*;
+pub use ms2::{FoundFragment, FoundPrecursor, Index as Ms2Index};
 
 #[derive(Clone, Eq, PartialEq, Ord, PartialOrd, Hash, Debug)]
 pub struct NamedIon<'n> {
