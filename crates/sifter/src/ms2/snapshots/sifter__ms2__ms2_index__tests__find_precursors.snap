@@ -1,5 +1,5 @@
 ---
-source: crates/sifter/src/ms2_index.rs
+source: crates/sifter/src/ms2/ms2_index.rs
 expression: found_precursors
 ---
 [

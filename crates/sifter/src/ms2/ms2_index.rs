@@ -11,7 +11,8 @@ use mzdata::{
 
 // Local Crate Imports
 use crate::{
-    Error, FoundFragment, FoundPrecursor, Ms2Index, NamedIon, Result,
+    Error, FoundFragment, FoundPrecursor, NamedIon, Result,
+    ms2::Ms2Index,
     ppm_window::PpmWindow,
     scan_kv::{ScanKey, ScanValue},
 };
@@ -166,8 +167,8 @@ mod tests {
 
     use super::*;
 
-    const MZML: &[u8] = include_bytes!("../tests/data/WT (6.7–7.3 min).mzML");
-    const MZML_GZ: &[u8] = include_bytes!("../tests/data/WT (6.7–7.3 min).mzML.gz");
+    const MZML: &[u8] = include_bytes!("../../tests/data/WT (6.7–7.3 min).mzML");
+    const MZML_GZ: &[u8] = include_bytes!("../../tests/data/WT (6.7–7.3 min).mzML.gz");
 
     #[test]
     fn from() {

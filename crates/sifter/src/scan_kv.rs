@@ -6,8 +6,9 @@ use mzdata::mzpeaks::Tolerance;
 
 // Local Crate Imports
 use crate::{
+    // FIXME: This really shouldn't be imported here at all!
+    ms2::Peaks,
     ordered_floats::{Minutes, Mz},
-    peaks::Peaks,
     ppm_window::PpmWindow,
 };
 
