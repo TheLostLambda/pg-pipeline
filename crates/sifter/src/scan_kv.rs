@@ -46,7 +46,7 @@ impl ScanValue {
 impl PpmWindow for ScanKey {
     fn ppm_window(mz: f64, ppm: f64) -> RangeInclusive<Self> {
         let (min_mz, max_mz) = Tolerance::PPM(ppm).bounds(mz);
-        Self::new(min_mz, 0)..=Self::new(max_mz, usize::MAX)
+        Self::new(min_mz, usize::MIN)..=Self::new(max_mz, usize::MAX)
     }
 }
 
@@ -73,7 +73,7 @@ mod tests {
             panic!("expected inclusive start bound");
         };
         assert_float_absolute_eq!(start_mz.into(), 471.706_411);
-        assert_eq!(start_scan, 0);
+        assert_eq!(start_scan, usize::MIN);
 
         let Bound::Included(&ScanKey {
             precursor: end_mz,
