@@ -6,8 +6,6 @@ use mzdata::mzpeaks::Tolerance;
 
 // Local Crate Imports
 use crate::{
-    // FIXME: This really shouldn't be imported here at all!
-    ms2::Peaks,
     ordered_floats::{Minutes, Mz},
     ppm_window::PpmWindow,
 };
@@ -21,9 +19,9 @@ pub struct ScanKey {
 }
 
 #[derive(Clone, Eq, PartialEq, Ord, PartialOrd, Hash, Debug)]
-pub struct ScanValue {
+pub struct ScanValue<V> {
     pub start_time: Minutes,
-    pub peaks: Peaks,
+    pub value: V,
 }
 
 impl ScanKey {
@@ -35,11 +33,11 @@ impl ScanKey {
     }
 }
 
-impl ScanValue {
-    pub fn new(start_time: f64, peaks: Peaks) -> Self {
+impl<V> ScanValue<V> {
+    pub fn new(start_time: f64, value: V) -> Self {
         Self {
             start_time: Minutes::from(start_time),
-            peaks,
+            value,
         }
     }
 }

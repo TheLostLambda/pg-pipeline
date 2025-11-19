@@ -12,7 +12,7 @@ use mzdata::{
 // Local Crate Imports
 use crate::{
     Error, FoundFragment, FoundPrecursor, NamedIon, Result,
-    ms2::Index,
+    ms2::{Index, Peaks},
     ppm_window::PpmWindow,
     scan_kv::{ScanKey, ScanValue},
 };
@@ -107,7 +107,7 @@ impl Index {
                                     },
                                     &ScanValue {
                                         start_time,
-                                        ref peaks,
+                                        value: ref peaks,
                                     },
                                 )| {
                                     peaks
@@ -152,7 +152,7 @@ impl Index {
         &self,
         precursor_mz: f64,
         ppm_tolerance: f64,
-    ) -> impl Iterator<Item = (&ScanKey, &ScanValue)> {
+    ) -> impl Iterator<Item = (&ScanKey, &ScanValue<Peaks>)> {
         self.0
             .range(ScanKey::ppm_window(precursor_mz, ppm_tolerance))
     }

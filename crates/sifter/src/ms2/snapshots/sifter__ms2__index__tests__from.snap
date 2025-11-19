@@ -9,7 +9,7 @@ Index(
             scan_number: 197,
         }: ScanValue {
             start_time: 7.18240448748271,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     58.77437973022461,
                     59.374794006347656,
@@ -90,7 +90,7 @@ Index(
             scan_number: 158,
         }: ScanValue {
             start_time: 7.09092008784612,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     52.644474029541016,
                     54.80266571044922,
@@ -226,7 +226,7 @@ Index(
             scan_number: 152,
         }: ScanValue {
             start_time: 7.0762593717893,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     51.81497573852539,
                     53.4393310546875,
@@ -355,7 +355,7 @@ Index(
             scan_number: 146,
         }: ScanValue {
             start_time: 7.06160583610535,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     51.00693130493164,
                     54.77273941040039,
@@ -478,7 +478,7 @@ Index(
             scan_number: 168,
         }: ScanValue {
             start_time: 7.11019983803431,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     50.5814094543457,
                     55.20779800415039,
@@ -586,7 +586,7 @@ Index(
             scan_number: 144,
         }: ScanValue {
             start_time: 7.05154845431646,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     55.934349060058594,
                     70.95782470703125,
@@ -687,7 +687,7 @@ Index(
             scan_number: 138,
         }: ScanValue {
             start_time: 7.03686502094269,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     55.93431854248047,
                     68.60773468017578,
@@ -798,7 +798,7 @@ Index(
             scan_number: 126,
         }: ScanValue {
             start_time: 7.00723873888651,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     51.72233581542969,
                     55.934349060058594,
@@ -909,7 +909,7 @@ Index(
             scan_number: 130,
         }: ScanValue {
             start_time: 7.01989332154592,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     55.93436813354492,
                     64.1531982421875,
@@ -1012,7 +1012,7 @@ Index(
             scan_number: 120,
         }: ScanValue {
             start_time: 6.99256763572693,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     50.790077209472656,
                     55.45314025878906,
@@ -1122,7 +1122,7 @@ Index(
             scan_number: 107,
         }: ScanValue {
             start_time: 6.96204615548452,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     53.327144622802734,
                     55.05404281616211,
@@ -1206,7 +1206,7 @@ Index(
             scan_number: 102,
         }: ScanValue {
             start_time: 6.94851825351715,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     53.706329345703125,
                     69.49115753173828,
@@ -1275,7 +1275,7 @@ Index(
             scan_number: 196,
         }: ScanValue {
             start_time: 7.18125916833878,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     51.0308952331543,
                     65.9730453491211,
@@ -1353,7 +1353,7 @@ Index(
             scan_number: 182,
         }: ScanValue {
             start_time: 7.14960048710505,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     57.31328582763672,
                     59.04928970336914,
@@ -1526,7 +1526,7 @@ Index(
             scan_number: 189,
         }: ScanValue {
             start_time: 7.16543945188522,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     51.78886795043945,
                     75.28563690185547,
@@ -1594,7 +1594,7 @@ Index(
             scan_number: 174,
         }: ScanValue {
             start_time: 7.12487803812027,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     61.02446746826172,
                     63.154293060302734,
@@ -1655,7 +1655,7 @@ Index(
             scan_number: 178,
         }: ScanValue {
             start_time: 7.13722273623149,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     51.600807189941406,
                     58.31036376953125,
@@ -1702,7 +1702,7 @@ Index(
             scan_number: 183,
         }: ScanValue {
             start_time: 7.1507748535792,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     51.750614166259766,
                     57.06992721557617,
@@ -1757,7 +1757,7 @@ Index(
             scan_number: 65,
         }: ScanValue {
             start_time: 6.8594256213824,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     61.14598846435547,
                     64.00326538085938,
@@ -1833,7 +1833,7 @@ Index(
             scan_number: 68,
         }: ScanValue {
             start_time: 6.87061923856735,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     51.67221450805664,
                     53.982444763183594,
@@ -1891,7 +1891,7 @@ Index(
             scan_number: 74,
         }: ScanValue {
             start_time: 6.88525918836594,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     51.79973602294922,
                     54.11294174194336,
@@ -1948,7 +1948,7 @@ Index(
             scan_number: 132,
         }: ScanValue {
             start_time: 7.02218460356394,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     54.50901794433594,
                     72.73331451416016,
@@ -2004,7 +2004,7 @@ Index(
             scan_number: 173,
         }: ScanValue {
             start_time: 7.12373221829732,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     54.2972412109375,
                     67.6429672241211,
@@ -2064,7 +2064,7 @@ Index(
             scan_number: 177,
         }: ScanValue {
             start_time: 7.13607700382868,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     55.94287109375,
                     64.05364227294922,
@@ -2124,7 +2124,7 @@ Index(
             scan_number: 53,
         }: ScanValue {
             start_time: 6.83016351973216,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     55.36608123779297,
                     67.4300308227539,
@@ -2200,7 +2200,7 @@ Index(
             scan_number: 58,
         }: ScanValue {
             start_time: 6.84364823614756,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     54.05147933959961,
                     67.82059478759766,
@@ -2276,7 +2276,7 @@ Index(
             scan_number: 63,
         }: ScanValue {
             start_time: 6.85713368768692,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     50.03575134277344,
                     55.129608154296875,
@@ -2359,7 +2359,7 @@ Index(
             scan_number: 190,
         }: ScanValue {
             start_time: 7.1665849697113,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     55.934364318847656,
                     69.06964111328125,
@@ -2454,7 +2454,7 @@ Index(
             scan_number: 203,
         }: ScanValue {
             start_time: 7.19711432174047,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     55.93428421020508,
                     62.299747467041016,
@@ -2544,7 +2544,7 @@ Index(
             scan_number: 117,
         }: ScanValue {
             start_time: 6.98911231870651,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     55.93436050415039,
                     60.044185638427734,
@@ -2624,7 +2624,7 @@ Index(
             scan_number: 124,
         }: ScanValue {
             start_time: 7.00492810522715,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     55.93437194824219,
                     70.88236999511719,
@@ -2709,7 +2709,7 @@ Index(
             scan_number: 113,
         }: ScanValue {
             start_time: 6.9767238866806,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     53.939048767089844,
                     55.443511962890625,
@@ -2796,7 +2796,7 @@ Index(
             scan_number: 129,
         }: ScanValue {
             start_time: 7.01873625233968,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     55.054203033447266,
                     55.819942474365234,
@@ -2891,7 +2891,7 @@ Index(
             scan_number: 125,
         }: ScanValue {
             start_time: 7.00607452109655,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     54.39629364013672,
                     55.0542106628418,
@@ -2982,7 +2982,7 @@ Index(
             scan_number: 135,
         }: ScanValue {
             start_time: 7.03340577001572,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     53.27312088012695,
                     55.05421829223633,
@@ -3076,7 +3076,7 @@ Index(
             scan_number: 105,
         }: ScanValue {
             start_time: 6.9597436518987,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     53.19117736816406,
                     56.917152404785156,
@@ -3132,7 +3132,7 @@ Index(
             scan_number: 141,
         }: ScanValue {
             start_time: 7.0480803858757,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     50.03725051879883,
                     70.06515502929688,
@@ -3197,7 +3197,7 @@ Index(
             scan_number: 150,
         }: ScanValue {
             start_time: 7.0662110022227,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     52.64033126831055,
                     68.81749725341797,
@@ -3253,7 +3253,7 @@ Index(
             scan_number: 136,
         }: ScanValue {
             start_time: 7.0345628710111,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     53.30020523071289,
                     70.06493377685547,
@@ -3313,7 +3313,7 @@ Index(
             scan_number: 195,
         }: ScanValue {
             start_time: 7.18010747149785,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     50.66938018798828,
                     54.842647552490234,
@@ -3403,7 +3403,7 @@ Index(
             scan_number: 192,
         }: ScanValue {
             start_time: 7.16889691864649,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     60.04434585571289,
                     61.04777526855469,
@@ -3492,7 +3492,7 @@ Index(
             scan_number: 200,
         }: ScanValue {
             start_time: 7.19363596951167,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     57.048831939697266,
                     60.0443229675293,
@@ -3609,7 +3609,7 @@ Index(
             scan_number: 164,
         }: ScanValue {
             start_time: 7.10558118537267,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     51.429317474365234,
                     56.24482727050781,
@@ -3749,7 +3749,7 @@ Index(
             scan_number: 159,
         }: ScanValue {
             start_time: 7.09208110287984,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     52.20756149291992,
                     54.05790328979492,
@@ -3845,7 +3845,7 @@ Index(
             scan_number: 155,
         }: ScanValue {
             start_time: 7.07971702133814,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     52.483863830566406,
                     54.25464630126953,
@@ -3945,7 +3945,7 @@ Index(
             scan_number: 131,
         }: ScanValue {
             start_time: 7.02103915328979,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     70.06501770019531,
                     73.47549438476563,
@@ -4017,7 +4017,7 @@ Index(
             scan_number: 172,
         }: ScanValue {
             start_time: 7.12258106981913,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     51.6434440612793,
                     57.19862747192383,
@@ -4110,7 +4110,7 @@ Index(
             scan_number: 176,
         }: ScanValue {
             start_time: 7.13492570435206,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     50.46058654785156,
                     58.005489349365234,
@@ -4244,7 +4244,7 @@ Index(
             scan_number: 119,
         }: ScanValue {
             start_time: 6.99142188742955,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     51.95927047729492,
                     55.05417251586914,
@@ -4332,7 +4332,7 @@ Index(
             scan_number: 108,
         }: ScanValue {
             start_time: 6.96320368563334,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     50.10319900512695,
                     51.72377395629883,
@@ -4418,7 +4418,7 @@ Index(
             scan_number: 112,
         }: ScanValue {
             start_time: 6.97557817017237,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     51.405357360839844,
                     55.05427932739258,
@@ -4513,7 +4513,7 @@ Index(
             scan_number: 186,
         }: ScanValue {
             start_time: 7.15422736918132,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     55.95441436767578,
                     60.055477142333984,
@@ -4599,7 +4599,7 @@ Index(
             scan_number: 239,
         }: ScanValue {
             start_time: 7.28555883680979,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     53.896549224853516,
                     60.044403076171875,
@@ -4717,7 +4717,7 @@ Index(
             scan_number: 234,
         }: ScanValue {
             start_time: 7.27206880366007,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     57.39085006713867,
                     60.04441833496094,
@@ -4825,7 +4825,7 @@ Index(
             scan_number: 226,
         }: ScanValue {
             start_time: 7.25461235558192,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     59.06940841674805,
                     59.15833282470703,
@@ -4942,7 +4942,7 @@ Index(
             scan_number: 167,
         }: ScanValue {
             start_time: 7.10905410165787,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     63.38029479980469,
                     69.0697021484375,
@@ -5021,7 +5021,7 @@ Index(
             scan_number: 171,
         }: ScanValue {
             start_time: 7.12143533741633,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     51.0396728515625,
                     60.04435729980469,
@@ -5095,7 +5095,7 @@ Index(
             scan_number: 179,
         }: ScanValue {
             start_time: 7.13840250288645,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     56.275184631347656,
                     56.649070739746094,
@@ -5171,7 +5171,7 @@ Index(
             scan_number: 114,
         }: ScanValue {
             start_time: 6.97788016910553,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     52.42722702026367,
                     53.06012725830078,
@@ -5246,7 +5246,7 @@ Index(
             scan_number: 106,
         }: ScanValue {
             start_time: 6.96090033566157,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     50.850547790527344,
                     52.81560134887695,
@@ -5305,7 +5305,7 @@ Index(
             scan_number: 118,
         }: ScanValue {
             start_time: 6.99026428575516,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     56.78916549682617,
                     61.88845443725586,
@@ -5368,7 +5368,7 @@ Index(
             scan_number: 110,
         }: ScanValue {
             start_time: 6.9732564699173,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     57.06972122192383,
                     57.31770324707031,
@@ -5504,7 +5504,7 @@ Index(
             scan_number: 116,
         }: ScanValue {
             start_time: 6.98792777175903,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     57.069881439208984,
                     60.044307708740234,
@@ -5620,7 +5620,7 @@ Index(
             scan_number: 122,
         }: ScanValue {
             start_time: 7.00262072200775,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     57.06985855102539,
                     63.54090118408203,
@@ -5722,7 +5722,7 @@ Index(
             scan_number: 153,
         }: ScanValue {
             start_time: 7.07741981859207,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     53.30424118041992,
                     56.04943084716797,
@@ -5937,7 +5937,7 @@ Index(
             scan_number: 148,
         }: ScanValue {
             start_time: 7.06390825227102,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     51.13469314575195,
                     56.0494270324707,
@@ -6127,7 +6127,7 @@ Index(
             scan_number: 143,
         }: ScanValue {
             start_time: 7.05037750517527,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     56.049434661865234,
                     57.05279541015625,
@@ -6328,7 +6328,7 @@ Index(
             scan_number: 104,
         }: ScanValue {
             start_time: 6.95858743702571,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     51.02763366699219,
                     56.04936981201172,
@@ -6519,7 +6519,7 @@ Index(
             scan_number: 123,
         }: ScanValue {
             start_time: 7.0037664861997,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     51.573143005371094,
                     57.55148696899414,
@@ -6583,7 +6583,7 @@ Index(
             scan_number: 128,
         }: ScanValue {
             start_time: 7.01757390216191,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     55.82804870605469,
                     60.044395446777344,
@@ -6692,7 +6692,7 @@ Index(
             scan_number: 134,
         }: ScanValue {
             start_time: 7.03223200356165,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     52.78409957885742,
                     54.491310119628906,
@@ -6797,7 +6797,7 @@ Index(
             scan_number: 96,
         }: ScanValue {
             start_time: 6.93385202204386,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     52.4051513671875,
                     53.54340362548828,
@@ -6878,7 +6878,7 @@ Index(
             scan_number: 221,
         }: ScanValue {
             start_time: 7.24111245190303,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     53.535606384277344,
                     54.87604522705078,
@@ -6971,7 +6971,7 @@ Index(
             scan_number: 227,
         }: ScanValue {
             start_time: 7.25628293867111,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     56.36249923706055,
                     57.28997802734375,
@@ -7056,7 +7056,7 @@ Index(
             scan_number: 24,
         }: ScanValue {
             start_time: 6.75815252180099,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     55.86082458496094,
                     65.78862762451172,
@@ -7180,7 +7180,7 @@ Index(
             scan_number: 27,
         }: ScanValue {
             start_time: 6.76934535220464,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     54.28511428833008,
                     55.69021224975586,
@@ -7330,7 +7330,7 @@ Index(
             scan_number: 244,
         }: ScanValue {
             start_time: 7.29906448637644,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     72.08060455322266,
                     78.56813049316406,
@@ -7443,7 +7443,7 @@ Index(
             scan_number: 35,
         }: ScanValue {
             start_time: 6.78626710290909,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     50.45508575439453,
                     51.81503677368164,
@@ -7586,7 +7586,7 @@ Index(
             scan_number: 16,
         }: ScanValue {
             start_time: 6.74123156979879,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     53.271480560302734,
                     57.35063171386719,
@@ -7718,7 +7718,7 @@ Index(
             scan_number: 22,
         }: ScanValue {
             start_time: 6.75586128746668,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     56.50837707519531,
                     73.68658447265625,
@@ -7841,7 +7841,7 @@ Index(
             scan_number: 12,
         }: ScanValue {
             start_time: 6.72889291957219,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     67.33832550048828,
                     70.5996322631836,
@@ -7978,7 +7978,7 @@ Index(
             scan_number: 238,
         }: ScanValue {
             start_time: 7.28441235338847,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     56.622772216796875,
                     60.04441833496094,
@@ -8135,7 +8135,7 @@ Index(
             scan_number: 243,
         }: ScanValue {
             start_time: 7.29791245177587,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     50.27373504638672,
                     56.049598693847656,
@@ -8292,7 +8292,7 @@ Index(
             scan_number: 233,
         }: ScanValue {
             start_time: 7.27091235434214,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     58.830902099609375,
                     60.04430389404297,
@@ -8462,7 +8462,7 @@ Index(
             scan_number: 47,
         }: ScanValue {
             start_time: 6.81553308680852,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     57.69791030883789,
                     59.85526657104492,
@@ -8616,7 +8616,7 @@ Index(
             scan_number: 56,
         }: ScanValue {
             start_time: 6.84135697002411,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     52.637046813964844,
                     60.044437408447266,
@@ -8758,7 +8758,7 @@ Index(
             scan_number: 51,
         }: ScanValue {
             start_time: 6.82787213837306,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     57.1238899230957,
                     59.99772262573242,
@@ -8915,7 +8915,7 @@ Index(
             scan_number: 220,
         }: ScanValue {
             start_time: 7.23995120242437,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     50.427791595458984,
                     54.81911849975586,
@@ -8973,7 +8973,7 @@ Index(
             scan_number: 216,
         }: ScanValue {
             start_time: 7.22760055179596,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     53.517555236816406,
                     55.35319900512695,
@@ -9025,7 +9025,7 @@ Index(
             scan_number: 210,
         }: ScanValue {
             start_time: 7.21292493855158,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     52.080745697021484,
                     60.055641174316406,
@@ -9083,7 +9083,7 @@ Index(
             scan_number: 93,
         }: ScanValue {
             start_time: 6.93038978691101,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     66.3364028930664,
                     72.74188232421875,
@@ -9159,7 +9159,7 @@ Index(
             scan_number: 84,
         }: ScanValue {
             start_time: 6.90450995480219,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     58.92715835571289,
                     59.598228454589844,
@@ -9269,7 +9269,7 @@ Index(
             scan_number: 86,
         }: ScanValue {
             start_time: 6.91455753758748,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     53.6285514831543,
                     56.748313903808594,
@@ -9441,7 +9441,7 @@ Index(
             scan_number: 142,
         }: ScanValue {
             start_time: 7.04923160190582,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     52.55646514892578,
                     62.61787796020508,
@@ -9498,7 +9498,7 @@ Index(
             scan_number: 149,
         }: ScanValue {
             start_time: 7.06506530558268,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     61.260799407958984,
                     72.08071899414063,
@@ -9551,7 +9551,7 @@ Index(
             scan_number: 137,
         }: ScanValue {
             start_time: 7.0357086868604,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     53.61750411987305,
                     56.14064025878906,
@@ -9610,7 +9610,7 @@ Index(
             scan_number: 162,
         }: ScanValue {
             start_time: 7.09553388868968,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     52.04717254638672,
                     52.90644454956055,
@@ -9682,7 +9682,7 @@ Index(
             scan_number: 180,
         }: ScanValue {
             start_time: 7.13954785381953,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     53.48130798339844,
                     56.66064453125,
@@ -9743,7 +9743,7 @@ Index(
             scan_number: 11,
         }: ScanValue {
             start_time: 6.72774640436172,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     51.89423370361328,
                     57.987972259521484,
@@ -9834,7 +9834,7 @@ Index(
             scan_number: 41,
         }: ScanValue {
             start_time: 6.80090295190811,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     54.95389175415039,
                     60.04437255859375,
@@ -9947,7 +9947,7 @@ Index(
             scan_number: 45,
         }: ScanValue {
             start_time: 6.81324182068507,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     60.0443115234375,
                     65.31855773925781,
@@ -10057,7 +10057,7 @@ Index(
             scan_number: 50,
         }: ScanValue {
             start_time: 6.82672620331446,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     50.32820510864258,
                     55.072566986083984,
@@ -10171,7 +10171,7 @@ Index(
             scan_number: 60,
         }: ScanValue {
             start_time: 6.84594035263062,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     65.68181610107422,
                     82.06502532958984,
@@ -10261,7 +10261,7 @@ Index(
             scan_number: 69,
         }: ScanValue {
             start_time: 6.87176445439656,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     53.24679946899414,
                     65.27710723876953,
@@ -10339,7 +10339,7 @@ Index(
             scan_number: 66,
         }: ScanValue {
             start_time: 6.86057212069829,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     63.05915451049805,
                     82.06499481201172,
@@ -10417,7 +10417,7 @@ Index(
             scan_number: 165,
         }: ScanValue {
             start_time: 7.10674566939672,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     51.67292404174805,
                     60.25751876831055,
@@ -10466,7 +10466,7 @@ Index(
             scan_number: 156,
         }: ScanValue {
             start_time: 7.08087246929804,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     50.09128189086914,
                     51.09328079223633,
@@ -10514,7 +10514,7 @@ Index(
             scan_number: 160,
         }: ScanValue {
             start_time: 7.09323208843867,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     52.96417999267578,
                     54.77056884765625,
@@ -10563,7 +10563,7 @@ Index(
             scan_number: 166,
         }: ScanValue {
             start_time: 7.10789703642527,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     51.70750045776367,
                     57.075286865234375,
@@ -10622,7 +10622,7 @@ Index(
             scan_number: 161,
         }: ScanValue {
             start_time: 7.09437800362905,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     51.53179168701172,
                     56.425071716308594,
@@ -10677,7 +10677,7 @@ Index(
             scan_number: 170,
         }: ScanValue {
             start_time: 7.12025753771464,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     51.89034652709961,
                     58.06758499145508,
@@ -10792,7 +10792,7 @@ Index(
             scan_number: 81,
         }: ScanValue {
             start_time: 6.90106748854319,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     50.58407211303711,
                     58.035072326660156,
@@ -10856,7 +10856,7 @@ Index(
             scan_number: 78,
         }: ScanValue {
             start_time: 6.88985895430247,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     51.38948059082031,
                     62.5512580871582,
@@ -10933,7 +10933,7 @@ Index(
             scan_number: 87,
         }: ScanValue {
             start_time: 6.91571825459798,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     52.24070358276367,
                     59.413848876953125,
@@ -10989,7 +10989,7 @@ Index(
             scan_number: 185,
         }: ScanValue {
             start_time: 7.15308152154287,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     59.90659713745117,
                     73.16617584228516,
@@ -11034,7 +11034,7 @@ Index(
             scan_number: 198,
         }: ScanValue {
             start_time: 7.18357838506699,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     52.731468200683594,
                     58.24920654296875,
@@ -11078,7 +11078,7 @@ Index(
             scan_number: 191,
         }: ScanValue {
             start_time: 7.16775198891958,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     50.6615104675293,
                     70.06485748291016,
@@ -11114,7 +11114,7 @@ Index(
             scan_number: 71,
         }: ScanValue {
             start_time: 6.8740559033076,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     52.516273498535156,
                     56.137298583984375,
@@ -11218,7 +11218,7 @@ Index(
             scan_number: 76,
         }: ScanValue {
             start_time: 6.88756198600133,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     54.14661407470703,
                     60.0443229675293,
@@ -11339,7 +11339,7 @@ Index(
             scan_number: 64,
         }: ScanValue {
             start_time: 6.85827958698273,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     60.04454803466797,
                     67.15351104736328,
@@ -11442,7 +11442,7 @@ Index(
             scan_number: 140,
         }: ScanValue {
             start_time: 7.0469129851977,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     53.57368469238281,
                     56.049468994140625,
@@ -11567,7 +11567,7 @@ Index(
             scan_number: 154,
         }: ScanValue {
             start_time: 7.07857125317256,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     51.18613052368164,
                     54.882484436035156,
@@ -11676,7 +11676,7 @@ Index(
             scan_number: 147,
         }: ScanValue {
             start_time: 7.06275745347341,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     54.48594665527344,
                     56.049434661865234,
@@ -11781,7 +11781,7 @@ Index(
             scan_number: 214,
         }: ScanValue {
             start_time: 7.22529420172373,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     52.41886520385742,
                     61.86676788330078,
@@ -11854,7 +11854,7 @@ Index(
             scan_number: 207,
         }: ScanValue {
             start_time: 7.20945825293859,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     53.746002197265625,
                     56.448028564453125,
@@ -11928,7 +11928,7 @@ Index(
             scan_number: 202,
         }: ScanValue {
             start_time: 7.19593235368729,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     72.08026885986328,
                     76.08146667480469,
@@ -11997,7 +11997,7 @@ Index(
             scan_number: 240,
         }: ScanValue {
             start_time: 7.28671457087199,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     52.58514404296875,
                     69.96884155273438,
@@ -12042,7 +12042,7 @@ Index(
             scan_number: 228,
         }: ScanValue {
             start_time: 7.25742826973597,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     50.722740173339844,
                     50.887393951416016,
@@ -12090,7 +12090,7 @@ Index(
             scan_number: 194,
         }: ScanValue {
             start_time: 7.1789442351977,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     54.233001708984375,
                     55.162353515625,
@@ -12202,7 +12202,7 @@ Index(
             scan_number: 188,
         }: ScanValue {
             start_time: 7.16427548840841,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     55.61869812011719,
                     56.04943084716797,
@@ -12319,7 +12319,7 @@ Index(
             scan_number: 184,
         }: ScanValue {
             start_time: 7.15192038729985,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     54.62339401245117,
                     55.047088623046875,
@@ -12384,7 +12384,7 @@ Index(
             scan_number: 222,
         }: ScanValue {
             start_time: 7.24225820417404,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     52.07707977294922,
                     59.93973159790039,
@@ -12453,7 +12453,7 @@ Index(
             scan_number: 8,
         }: ScanValue {
             start_time: 6.72430873826345,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     51.899112701416016,
                     76.34996032714844,
@@ -12556,7 +12556,7 @@ Index(
             scan_number: 3,
         }: ScanValue {
             start_time: 6.71082395429611,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     50.98762893676758,
                     60.044464111328125,
@@ -12648,7 +12648,7 @@ Index(
             scan_number: 224,
         }: ScanValue {
             start_time: 7.2523106189092,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     57.367740631103516,
                     59.72187805175781,
@@ -12775,7 +12775,7 @@ Index(
             scan_number: 230,
         }: ScanValue {
             start_time: 7.26747548694611,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     54.53042984008789,
                     60.04425048828125,
@@ -12879,7 +12879,7 @@ Index(
             scan_number: 219,
         }: ScanValue {
             start_time: 7.23880543823242,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     56.68635177612305,
                     57.439353942871094,
@@ -12988,7 +12988,7 @@ Index(
             scan_number: 4,
         }: ScanValue {
             start_time: 6.71196992114385,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     51.97220993041992,
                     52.02781677246094,
@@ -13084,7 +13084,7 @@ Index(
             scan_number: 111,
         }: ScanValue {
             start_time: 6.97440175329844,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     84.04439544677734,
                     84.59176635742188,
@@ -13167,7 +13167,7 @@ Index(
             scan_number: 17,
         }: ScanValue {
             start_time: 6.74237727041244,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     54.39191818237305,
                     70.20245361328125,
@@ -13256,7 +13256,7 @@ Index(
             scan_number: 21,
         }: ScanValue {
             start_time: 6.75471540406545,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     50.278907775878906,
                     50.662559509277344,
@@ -13328,7 +13328,7 @@ Index(
             scan_number: 26,
         }: ScanValue {
             start_time: 6.76819990193049,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     62.40439224243164,
                     66.90930938720703,
@@ -13403,7 +13403,7 @@ Index(
             scan_number: 48,
         }: ScanValue {
             start_time: 6.8166795384407,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     50.72795486450195,
                     51.233001708984375,
@@ -13483,7 +13483,7 @@ Index(
             scan_number: 10,
         }: ScanValue {
             start_time: 6.7265998374939,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     54.52090072631836,
                     54.57663345336914,
@@ -13566,7 +13566,7 @@ Index(
             scan_number: 15,
         }: ScanValue {
             start_time: 6.74008526916504,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     50.574214935302734,
                     52.859169006347656,
@@ -13667,7 +13667,7 @@ Index(
             scan_number: 6,
         }: ScanValue {
             start_time: 6.71426233565013,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     50.57427978515625,
                     54.520931243896484,
@@ -13781,7 +13781,7 @@ Index(
             scan_number: 236,
         }: ScanValue {
             start_time: 7.28211538508733,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     54.52092742919922,
                     54.576698303222656,
@@ -13882,7 +13882,7 @@ Index(
             scan_number: 231,
         }: ScanValue {
             start_time: 7.26862080211639,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     50.57423782348633,
                     52.86530303955078,
@@ -13993,7 +13993,7 @@ Index(
             scan_number: 225,
         }: ScanValue {
             start_time: 7.25345630362829,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     50.574344635009766,
                     54.02436447143555,
@@ -14111,7 +14111,7 @@ Index(
             scan_number: 40,
         }: ScanValue {
             start_time: 6.7997574221611,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     52.776588439941406,
                     57.385643005371094,
@@ -14192,7 +14192,7 @@ Index(
             scan_number: 30,
         }: ScanValue {
             start_time: 6.77278312161763,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     56.55526351928711,
                     59.93110275268555,
@@ -14283,7 +14283,7 @@ Index(
             scan_number: 36,
         }: ScanValue {
             start_time: 6.78741315320333,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     56.298370361328125,
                     60.59321212768555,
@@ -14369,7 +14369,7 @@ Index(
             scan_number: 83,
         }: ScanValue {
             start_time: 6.90336452042262,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     54.7408561706543,
                     55.74144744873047,
@@ -14453,7 +14453,7 @@ Index(
             scan_number: 95,
         }: ScanValue {
             start_time: 6.93270675455729,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     53.16621398925781,
                     54.16331481933594,
@@ -14541,7 +14541,7 @@ Index(
             scan_number: 101,
         }: ScanValue {
             start_time: 6.947372803243,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     55.74165344238281,
                     61.57227325439453,
@@ -14605,7 +14605,7 @@ Index(
             scan_number: 80,
         }: ScanValue {
             start_time: 6.89990618740718,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     54.05769348144531,
                     55.59701156616211,
@@ -14690,7 +14690,7 @@ Index(
             scan_number: 75,
         }: ScanValue {
             start_time: 6.8864102692922,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     55.62838363647461,
                     56.629093170166016,
@@ -14777,7 +14777,7 @@ Index(
             scan_number: 70,
         }: ScanValue {
             start_time: 6.87291021858851,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     52.90045928955078,
                     55.628517150878906,
@@ -14863,7 +14863,7 @@ Index(
             scan_number: 89,
         }: ScanValue {
             start_time: 6.91801558847427,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     57.51661682128906,
                     61.35615158081055,
@@ -14942,7 +14942,7 @@ Index(
             scan_number: 100,
         }: ScanValue {
             start_time: 6.94620605424245,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     52.293006896972656,
                     63.0727653503418,
@@ -14988,7 +14988,7 @@ Index(
             scan_number: 92,
         }: ScanValue {
             start_time: 6.92924440418879,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     50.327110290527344,
                     52.97263717651367,
@@ -15092,7 +15092,7 @@ Index(
             scan_number: 88,
         }: ScanValue {
             start_time: 6.91686972096761,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     55.78546905517578,
                     60.044395446777344,
@@ -15175,7 +15175,7 @@ Index(
             scan_number: 98,
         }: ScanValue {
             start_time: 6.94389953727722,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     57.84980392456055,
                     60.04435348510742,
@@ -15278,7 +15278,7 @@ Index(
             scan_number: 2,
         }: ScanValue {
             start_time: 6.70967902059555,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     51.97220993041992,
                     67.98387908935547,
@@ -15348,7 +15348,7 @@ Index(
             scan_number: 94,
         }: ScanValue {
             start_time: 6.93155535176595,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     84.73133850097656,
                     90.70861053466797,
@@ -15391,7 +15391,7 @@ Index(
             scan_number: 90,
         }: ScanValue {
             start_time: 6.91919145301183,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     61.37489318847656,
                     61.76985168457031,
@@ -15445,7 +15445,7 @@ Index(
             scan_number: 99,
         }: ScanValue {
             start_time: 6.94506008739471,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     50.59181594848633,
                     50.75252914428711,
@@ -15489,7 +15489,7 @@ Index(
             scan_number: 218,
         }: ScanValue {
             start_time: 7.23765415465037,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     51.0028190612793,
                     51.73938751220703,
@@ -15566,7 +15566,7 @@ Index(
             scan_number: 209,
         }: ScanValue {
             start_time: 7.21176862036387,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     51.940940856933594,
                     70.37509155273438,
@@ -15623,7 +15623,7 @@ Index(
             scan_number: 212,
         }: ScanValue {
             start_time: 7.22297130540212,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     50.51215362548828,
                     56.77885437011719,
@@ -15692,7 +15692,7 @@ Index(
             scan_number: 208,
         }: ScanValue {
             start_time: 7.21062278861999,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     50.98014831542969,
                     54.718746185302734,
@@ -15753,7 +15753,7 @@ Index(
             scan_number: 215,
         }: ScanValue {
             start_time: 7.22645526841481,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     54.58634567260742,
                     56.42229080200195,
@@ -15817,7 +15817,7 @@ Index(
             scan_number: 204,
         }: ScanValue {
             start_time: 7.19826015348434,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     50.85798263549805,
                     59.09730911254883,
@@ -15878,7 +15878,7 @@ Index(
             scan_number: 5,
         }: ScanValue {
             start_time: 6.7131161383311,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     51.75547409057617,
                     52.762733459472656,
@@ -15943,7 +15943,7 @@ Index(
             scan_number: 23,
         }: ScanValue {
             start_time: 6.75700695231756,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     53.84142303466797,
                     59.9359016418457,
@@ -16005,7 +16005,7 @@ Index(
             scan_number: 18,
         }: ScanValue {
             start_time: 6.74352278823852,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     64.77782440185547,
                     65.8043441772461,
@@ -16059,7 +16059,7 @@ Index(
             scan_number: 46,
         }: ScanValue {
             start_time: 6.81438735440572,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     55.21452713012695,
                     57.670310974121094,
@@ -16111,7 +16111,7 @@ Index(
             scan_number: 38,
         }: ScanValue {
             start_time: 6.79746623551051,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     67.43396759033203,
                     82.14910888671875,
@@ -16186,7 +16186,7 @@ Index(
             scan_number: 32,
         }: ScanValue {
             start_time: 6.78283041830063,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     51.69365692138672,
                     51.74432373046875,
@@ -16264,7 +16264,7 @@ Index(
             scan_number: 44,
         }: ScanValue {
             start_time: 6.81209631875356,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     51.35785675048828,
                     51.49681854248047,
@@ -16351,7 +16351,7 @@ Index(
             scan_number: 82,
         }: ScanValue {
             start_time: 6.90221295471191,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     50.97769546508789,
                     51.48704147338867,
@@ -16406,7 +16406,7 @@ Index(
             scan_number: 72,
         }: ScanValue {
             start_time: 6.87521235262553,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     50.40593338012695,
                     75.02469635009766,
@@ -16488,7 +16488,7 @@ Index(
             scan_number: 77,
         }: ScanValue {
             start_time: 6.88871335302989,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     52.6371955871582,
                     69.80506134033203,
@@ -16548,7 +16548,7 @@ Index(
             scan_number: 213,
         }: ScanValue {
             start_time: 7.22414830242793,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     50.45899200439453,
                     52.65226745605469,
@@ -16605,7 +16605,7 @@ Index(
             scan_number: 201,
         }: ScanValue {
             start_time: 7.19478705441157,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     50.995140075683594,
                     55.938140869140625,
@@ -16654,7 +16654,7 @@ Index(
             scan_number: 206,
         }: ScanValue {
             start_time: 7.20831305300395,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     51.96940994262695,
                     53.782894134521484,
@@ -16742,7 +16742,7 @@ Index(
             scan_number: 20,
         }: ScanValue {
             start_time: 6.75356956834793,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     52.76201629638672,
                     53.235774993896484,
@@ -16827,7 +16827,7 @@ Index(
             scan_number: 9,
         }: ScanValue {
             start_time: 6.72545445477168,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     50.330726623535156,
                     51.358009338378906,
@@ -16913,7 +16913,7 @@ Index(
             scan_number: 14,
         }: ScanValue {
             start_time: 6.73894003744125,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     51.358116149902344,
                     51.70539474487305,
@@ -16997,7 +16997,7 @@ Index(
             scan_number: 237,
         }: ScanValue {
             start_time: 7.28326105391184,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     52.286251068115234,
                     52.93809127807617,
@@ -17090,7 +17090,7 @@ Index(
             scan_number: 242,
         }: ScanValue {
             start_time: 7.29676093772252,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     51.14287567138672,
                     63.74238586425781,
@@ -17171,7 +17171,7 @@ Index(
             scan_number: 232,
         }: ScanValue {
             start_time: 7.26976640338898,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     53.48712158203125,
                     55.76346969604492,
@@ -17248,7 +17248,7 @@ Index(
             scan_number: 54,
         }: ScanValue {
             start_time: 6.83130930379232,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     50.79679870605469,
                     53.758480072021484,
@@ -17326,7 +17326,7 @@ Index(
             scan_number: 59,
         }: ScanValue {
             start_time: 6.84479418710073,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     53.17706298828125,
                     53.852054595947266,
@@ -17417,7 +17417,7 @@ Index(
             scan_number: 42,
         }: ScanValue {
             start_time: 6.80204895451864,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     63.12807083129883,
                     65.63932800292969,
@@ -17492,7 +17492,7 @@ Index(
             scan_number: 34,
         }: ScanValue {
             start_time: 6.78512128705978,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     65.19418334960938,
                     65.80400848388672,
@@ -17562,7 +17562,7 @@ Index(
             scan_number: 29,
         }: ScanValue {
             start_time: 6.77163663819631,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     60.871517181396484,
                     64.12940216064453,
@@ -17639,7 +17639,7 @@ Index(
             scan_number: 39,
         }: ScanValue {
             start_time: 6.79861151889165,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     51.51051330566406,
                     53.113380432128906,
@@ -17697,7 +17697,7 @@ Index(
             scan_number: 28,
         }: ScanValue {
             start_time: 6.77049058790207,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     50.67134094238281,
                     50.69029235839844,
@@ -17753,7 +17753,7 @@ Index(
             scan_number: 33,
         }: ScanValue {
             start_time: 6.78397586857478,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     52.2254638671875,
                     52.7375373840332,
@@ -17809,7 +17809,7 @@ Index(
             scan_number: 52,
         }: ScanValue {
             start_time: 6.8290175052007,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     52.6434326171875,
                     55.8105354309082,
@@ -17885,7 +17885,7 @@ Index(
             scan_number: 57,
         }: ScanValue {
             start_time: 6.84250247195562,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     51.65372085571289,
                     60.136802673339844,
@@ -17952,7 +17952,7 @@ Index(
             scan_number: 62,
         }: ScanValue {
             start_time: 6.85598782018026,
-            peaks: Peaks(
+            value: Peaks(
                 {
                     50.233116149902344,
                     51.43225860595703,

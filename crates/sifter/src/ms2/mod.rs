@@ -12,17 +12,15 @@ use derive_more::Constructor;
 // Local Crate Imports
 use crate::{
     NamedIon,
+    ms2::peaks::Peaks,
     ordered_floats::{Minutes, Mz},
     scan_kv::{ScanKey, ScanValue},
 };
 
 // Public API ==========================================================================================================
 
-// FIXME: Remove this once `src/scan_kv.rs` is decoupled from `Peaks`!
-pub use peaks::Peaks;
-
 #[derive(Clone, Eq, PartialEq, Ord, PartialOrd, Hash, Debug)]
-pub struct Index(BTreeMap<ScanKey, ScanValue>);
+pub struct Index(BTreeMap<ScanKey, ScanValue<Peaks>>);
 
 #[derive(Copy, Clone, Eq, PartialEq, Ord, PartialOrd, Hash, Debug, Constructor)]
 pub struct FoundPrecursor<'p, 'n> {
