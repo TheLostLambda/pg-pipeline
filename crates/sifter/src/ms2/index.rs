@@ -163,7 +163,7 @@ impl Index {
 #[cfg(test)]
 mod tests {
     use insta::assert_debug_snapshot;
-    use mzdata::{MzMLReader, io::DetailLevel};
+    use mzdata::io::DetailLevel;
 
     use super::*;
 
@@ -172,8 +172,7 @@ mod tests {
 
     #[test]
     fn from() {
-        let mzml =
-            MzMLReader::with_buffer_capacity_and_detail_level(MZML, 10_000, DetailLevel::Lazy);
+        let mzml = BufferedMzMLReaderType::new_buffered_with_detail_level(MZML, DetailLevel::Lazy);
         let spectra: Vec<_> = mzml.collect();
         let ms2_index = Index::from_spectra(spectra).unwrap();
         assert_debug_snapshot!(ms2_index);
