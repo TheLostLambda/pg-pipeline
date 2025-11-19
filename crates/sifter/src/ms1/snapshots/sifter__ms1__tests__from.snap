@@ -1,0 +1,416 @@
+---
+source: crates/sifter/src/ms1/mod.rs
+expression: monomer_matches
+---
+[
+    (
+        ScanKey {
+            mz: 942.4114379882813,
+            scan_number: 31,
+        },
+        ScanValue {
+            start_time: 6.77820429957708,
+            value: 400578600.0,
+        },
+    ),
+    (
+        ScanKey {
+            mz: 942.4115600585938,
+            scan_number: 13,
+        },
+        ScanValue {
+            start_time: 6.73431435184479,
+            value: 277753150.0,
+        },
+    ),
+    (
+        ScanKey {
+            mz: 942.4117431640625,
+            scan_number: 1,
+        },
+        ScanValue {
+            start_time: 6.70505248463949,
+            value: 45190676.0,
+        },
+    ),
+    (
+        ScanKey {
+            mz: 942.4117431640625,
+            scan_number: 7,
+        },
+        ScanValue {
+            start_time: 6.71968285001119,
+            value: 145880720.0,
+        },
+    ),
+    (
+        ScanKey {
+            mz: 942.4118041992188,
+            scan_number: 19,
+        },
+        ScanValue {
+            start_time: 6.74894416885376,
+            value: 389632200.0,
+        },
+    ),
+    (
+        ScanKey {
+            mz: 942.411865234375,
+            scan_number: 25,
+        },
+        ScanValue {
+            start_time: 6.7635738348643,
+            value: 417618560.0,
+        },
+    ),
+    (
+        ScanKey {
+            mz: 942.4119873046875,
+            scan_number: 37,
+        },
+        ScanValue {
+            start_time: 6.79283438282013,
+            value: 344629760.0,
+        },
+    ),
+    (
+        ScanKey {
+            mz: 942.4120483398438,
+            scan_number: 43,
+        },
+        ScanValue {
+            start_time: 6.80747018413544,
+            value: 285272300.0,
+        },
+    ),
+    (
+        ScanKey {
+            mz: 942.412109375,
+            scan_number: 49,
+        },
+        ScanValue {
+            start_time: 6.82210041837692,
+            value: 238510580.0,
+        },
+    ),
+    (
+        ScanKey {
+            mz: 942.4124755859375,
+            scan_number: 61,
+        },
+        ScanValue {
+            start_time: 6.85136185245514,
+            value: 109200750.0,
+        },
+    ),
+    (
+        ScanKey {
+            mz: 942.4125366210938,
+            scan_number: 55,
+        },
+        ScanValue {
+            start_time: 6.83673061685562,
+            value: 147268740.0,
+        },
+    ),
+    (
+        ScanKey {
+            mz: 942.41259765625,
+            scan_number: 67,
+        },
+        ScanValue {
+            start_time: 6.86599309997559,
+            value: 60864804.0,
+        },
+    ),
+    (
+        ScanKey {
+            mz: 942.41259765625,
+            scan_number: 73,
+        },
+        ScanValue {
+            start_time: 6.88063339945475,
+            value: 35458930.0,
+        },
+    ),
+    (
+        ScanKey {
+            mz: 942.4127197265625,
+            scan_number: 79,
+        },
+        ScanValue {
+            start_time: 6.89528011636734,
+            value: 20895390.0,
+        },
+    ),
+    (
+        ScanKey {
+            mz: 942.4127197265625,
+            scan_number: 85,
+        },
+        ScanValue {
+            start_time: 6.90993131554921,
+            value: 11918642.0,
+        },
+    ),
+    (
+        ScanKey {
+            mz: 942.4132690429688,
+            scan_number: 91,
+        },
+        ScanValue {
+            start_time: 6.92461256739298,
+            value: 6943983.0,
+        },
+    ),
+    (
+        ScanKey {
+            mz: 942.413330078125,
+            scan_number: 241,
+        },
+        ScanValue {
+            start_time: 7.29213553425471,
+            value: 2324856.8,
+        },
+    ),
+    (
+        ScanKey {
+            mz: 942.4134521484375,
+            scan_number: 229,
+        },
+        ScanValue {
+            start_time: 7.26284941590627,
+            value: 1830245.9,
+        },
+    ),
+    (
+        ScanKey {
+            mz: 942.4135131835938,
+            scan_number: 235,
+        },
+        ScanValue {
+            start_time: 7.27748971538544,
+            value: 2351378.8,
+        },
+    ),
+    (
+        ScanKey {
+            mz: 942.4136352539063,
+            scan_number: 97,
+        },
+        ScanValue {
+            start_time: 6.93927343444824,
+            value: 4161779.5,
+        },
+    ),
+    (
+        ScanKey {
+            mz: 942.4136962890625,
+            scan_number: 223,
+        },
+        ScanValue {
+            start_time: 7.24767936623891,
+            value: 1079616.0,
+        },
+    ),
+    (
+        ScanKey {
+            mz: 942.413818359375,
+            scan_number: 109,
+        },
+        ScanValue {
+            start_time: 6.96862553513845,
+            value: 1697882.4,
+        },
+    ),
+    (
+        ScanKey {
+            mz: 942.413818359375,
+            scan_number: 217,
+        },
+        ScanValue {
+            start_time: 7.23302195227941,
+            value: 533897.25,
+        },
+    ),
+    (
+        ScanKey {
+            mz: 942.4139404296875,
+            scan_number: 103,
+        },
+        ScanValue {
+            start_time: 6.95395045038859,
+            value: 2542436.3,
+        },
+    ),
+    (
+        ScanKey {
+            mz: 942.4139404296875,
+            scan_number: 151,
+        },
+        ScanValue {
+            start_time: 7.0716323987325,
+            value: 386366.34,
+        },
+    ),
+    (
+        ScanKey {
+            mz: 942.4140014648438,
+            scan_number: 115,
+        },
+        ScanValue {
+            start_time: 6.98330145037969,
+            value: 1185676.8,
+        },
+    ),
+    (
+        ScanKey {
+            mz: 942.4140014648438,
+            scan_number: 121,
+        },
+        ScanValue {
+            start_time: 6.99798966801961,
+            value: 883237.06,
+        },
+    ),
+    (
+        ScanKey {
+            mz: 942.4140014648438,
+            scan_number: 157,
+        },
+        ScanValue {
+            start_time: 7.08629383401871,
+            value: 319553.06,
+        },
+    ),
+    (
+        ScanKey {
+            mz: 942.4140625,
+            scan_number: 133,
+        },
+        ScanValue {
+            start_time: 7.02760553515752,
+            value: 561565.8,
+        },
+    ),
+    (
+        ScanKey {
+            mz: 942.4141235351563,
+            scan_number: 211,
+        },
+        ScanValue {
+            start_time: 7.2183460489591,
+            value: 238511.4,
+        },
+    ),
+    (
+        ScanKey {
+            mz: 942.4141845703125,
+            scan_number: 145,
+        },
+        ScanValue {
+            start_time: 7.05696936604182,
+            value: 400145.4,
+        },
+    ),
+    (
+        ScanKey {
+            mz: 942.4141845703125,
+            scan_number: 163,
+        },
+        ScanValue {
+            start_time: 7.10095528519948,
+            value: 254105.52,
+        },
+    ),
+    (
+        ScanKey {
+            mz: 942.4142456054688,
+            scan_number: 187,
+        },
+        ScanValue {
+            start_time: 7.15965001738866,
+            value: 172259.23,
+        },
+    ),
+    (
+        ScanKey {
+            mz: 942.414306640625,
+            scan_number: 139,
+        },
+        ScanValue {
+            start_time: 7.04228609956106,
+            value: 503070.34,
+        },
+    ),
+    (
+        ScanKey {
+            mz: 942.4143676757813,
+            scan_number: 181,
+        },
+        ScanValue {
+            start_time: 7.1449751352946,
+            value: 190444.4,
+        },
+    ),
+    (
+        ScanKey {
+            mz: 942.4143676757813,
+            scan_number: 205,
+        },
+        ScanValue {
+            start_time: 7.20368236856461,
+            value: 151186.86,
+        },
+    ),
+    (
+        ScanKey {
+            mz: 942.4144287109375,
+            scan_number: 127,
+        },
+        ScanValue {
+            start_time: 7.01265984929403,
+            value: 717964.1,
+        },
+    ),
+    (
+        ScanKey {
+            mz: 942.4144287109375,
+            scan_number: 193,
+        },
+        ScanValue {
+            start_time: 7.17431835091909,
+            value: 151516.47,
+        },
+    ),
+    (
+        ScanKey {
+            mz: 942.4146118164063,
+            scan_number: 169,
+        },
+        ScanValue {
+            start_time: 7.11563145078023,
+            value: 248830.13,
+        },
+    ),
+    (
+        ScanKey {
+            mz: 942.4146118164063,
+            scan_number: 199,
+        },
+        ScanValue {
+            start_time: 7.18899948355357,
+            value: 159604.88,
+        },
+    ),
+    (
+        ScanKey {
+            mz: 942.4146728515625,
+            scan_number: 175,
+        },
+        ScanValue {
+            start_time: 7.13030011809667,
+            value: 215958.66,
+        },
+    ),
+]
