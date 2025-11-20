@@ -14,7 +14,7 @@ use crate::{
 
 #[derive(Copy, Clone, Eq, PartialEq, Ord, PartialOrd, Hash, Debug)]
 pub struct ScanKey {
-    pub precursor: Mz,
+    pub mz: Mz,
     pub scan_number: usize,
 }
 
@@ -25,9 +25,9 @@ pub struct ScanValue<V> {
 }
 
 impl ScanKey {
-    pub fn new(precursor: f64, scan_number: usize) -> Self {
+    pub fn new(mz: f64, scan_number: usize) -> Self {
         Self {
-            precursor: Mz::from(precursor),
+            mz: Mz::from(mz),
             scan_number,
         }
     }
@@ -65,7 +65,7 @@ mod tests {
         assert!(window.contains(&ScanKey::new(471.711_128, 42)));
 
         let Bound::Included(&ScanKey {
-            precursor: start_mz,
+            mz: start_mz,
             scan_number: start_scan,
         }) = window.start_bound()
         else {
@@ -75,7 +75,7 @@ mod tests {
         assert_eq!(start_scan, usize::MIN);
 
         let Bound::Included(&ScanKey {
-            precursor: end_mz,
+            mz: end_mz,
             scan_number: end_scan,
         }) = window.end_bound()
         else {

@@ -69,12 +69,12 @@ impl Index {
             self.filter_scans(theoretical.mz(), ppm_tolerance).map(
                 |(
                     &ScanKey {
-                        precursor,
+                        mz: observed_mz,
                         scan_number,
                     },
                     &ScanValue { start_time, .. },
                 )| {
-                    FoundPrecursor::new(theoretical, precursor, scan_number, start_time)
+                    FoundPrecursor::new(theoretical, observed_mz, scan_number, start_time)
                 },
             )
         })
@@ -102,7 +102,7 @@ impl Index {
                             .flat_map(
                                 move |(
                                     &ScanKey {
-                                        precursor,
+                                        mz: precursor_mz,
                                         scan_number,
                                     },
                                     &ScanValue {
@@ -116,7 +116,7 @@ impl Index {
                                             FoundFragment::new(
                                                 theoretical_precursor,
                                                 theoretical_fragment,
-                                                precursor,
+                                                precursor_mz,
                                                 fragment_mz,
                                                 scan_number,
                                                 start_time,
