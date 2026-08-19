@@ -142,6 +142,7 @@ pub struct Modification<K> {
     kind: K,
 }
 
+// FIXME: Remove this? Or add a comment saying why it should exist?
 pub type AnyModification<'a, 'p> = Modification<AnyMod<'a, 'p>>;
 
 #[derive(Clone, Eq, PartialEq, Debug, Serialize)]
