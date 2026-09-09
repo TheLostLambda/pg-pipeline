@@ -1,6 +1,6 @@
 Muropeptide = Monomer , { Connection , Monomer } , [ Connection ] , [ { " " }- ,
-  ( Modifications , [ { " " }- , Crosslinks ]
-  | Crosslinks , [ { " " }- , Modifications ]
+  ( Modifications , [ { " " }- , Crosslink Descriptors ]
+  | Crosslink Descriptors , [ { " " }- , Modifications ]
   ) ] ;
 
 Monomer
@@ -10,21 +10,26 @@ Monomer
   ;
 
 Connection
-  = "=" (* Crosslink *)
-  | "~" (* Glycosidic Bond *)
-  | ( "~=" | "=~" ) (* Both *)
+  = Crosslink
+  | Glycosidic Bond
+  | Crosslink , Glycosidic Bond
+  | Glycosidic Bond , Crosslink
   ;
 
 Modifications = "(" , ( Named Modification | Offset Modification ) ,
   { { " " } , "," , { " " } , ( Named Modification | Offset Modification ) } , ")" ;
 
-Crosslinks = "(" , Crosslink Descriptors ,
-  { { " " } , "," , { " " } , Crosslink Descriptors } , ")" ;
+Crosslink Descriptors = "(" , Crosslink Descriptor ,
+  { { " " } , "," , { " " } , Crosslink Descriptor } , ")" ;
 
 Glycan = { Monosaccharide , [ Modifications ] }- ;
 
 Peptide = { Amino Acid , [ Modifications ] ,
   [ Lateral Chain ] }- ;
+
+Crosslink = "=" , [ Count ] ;
+
+Glycosidic Bond = "~" , [ Count ] ;
 
 Named Modification = [ Multiplier ] , letter ,
   { letter | digit | "_" } ;
@@ -32,8 +37,7 @@ Named Modification = [ Multiplier ] , letter ,
 Offset Modification = ( "+" | "-" ) , [ Multiplier ] ,
   Chemical Composition ;
 
-Crosslink Descriptors = Crosslink Descriptor ,
-  { { " " } , "&" , { " " } , Crosslink Descriptor } ;
+Crosslink Descriptor = position , "-" , position ;
 
 Monosaccharide = lowercase ;
 
@@ -48,11 +52,6 @@ Chemical Composition
   = { Atomic Offset }- , [ ( "+" | "-" ) , Particle Offset ]
   | Particle Offset
   ;
-
-Crosslink Descriptor = position ,
-  ( "-" (* Donor-Acceptor *)
-  | "=" (* Acceptor=Donor *)
-  ) , position ;
 
 Count = digit - "0" , { digit } ;
 
